@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The **Uncanny Valley VR Project** investigates how subtle imperfections in virtual avatar facial animation affect user perception in immersive virtual reality.
 
@@ -19,7 +19,7 @@ The system is designed as a **research-oriented VR experience**, guiding users t
 
 ---
 
-## 🎯 Research Objectives
+## Research Objectives
 
 - Analyze how **facial tracking precision** influences perceived realism
 - Compare **tracking-driven lip sync** vs. audio-driven approaches
@@ -29,7 +29,7 @@ The system is designed as a **research-oriented VR experience**, guiding users t
 
 ---
 
-## 🧠 Experimental Design
+##  Experimental Design
 
 The experience is structured as a **guided VR experiment**, where users:
 
@@ -45,7 +45,7 @@ This design allows isolating individual variables while maintaining immersion.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 ### Facial Tracking Accuracy
 - Real-time facial expression mapping from user to avatar
@@ -70,7 +70,7 @@ This design allows isolating individual variables while maintaining immersion.
 
 ---
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 **Hardware**
 - Meta Quest Pro (facial, eye, and hand tracking)
@@ -89,7 +89,7 @@ This design allows isolating individual variables while maintaining immersion.
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. Clone the repository:
    ```bash
