@@ -1,58 +1,166 @@
-# Uncanny Valley VR Project
+# Uncanny Valley VR: Facial Realism and Perception Study
 
-## Overview
-The **Uncanny Valley VR Project** explores the uncanny valley effect in virtual reality by analyzing and balancing variables such as lip sync accuracy, eye motion realism, and facial tracking precision. The project aims to improve user perception and engagement with virtual avatars.
+> A VR-based experimental system for studying how facial tracking accuracy, lip synchronization, and eye micro-motions influence the uncanny valley effect.
 
-## Features
-- **Facial Tracking Accuracy**: Ensures the avatar's facial expressions closely match the user's.
-- **Lip Sync Implementation**: Uses real-time facial tracking instead of audio-based lip sync.
-- **Eye Subtle Motion**: Random blinking and eye movements for enhanced realism.
-- **Noise and Imperfections**: Studies the impact of minor inaccuracies on user perception.
-- **Hand Tracking Interactions**: Allows users to interact naturally using gestures.
-- **Experiment Design**: Provides instructions guiding users through interactions to evaluate uncanny valley triggers.
+---
 
-## Research Goals
-- Understand how tracking accuracy affects the uncanny valley effect.
-- Improve realism in avatar facial animation using FACS (Facial Action Coding System).
-- Study the impact of subtle eye motion and lip sync variations.
-- Develop a framework for measuring user perception in VR interactions.
+## 📌 Overview
 
-## Tech Stack
-- **Platform**: Meta Quest Pro
-- **Game Engine**: Unity with Oculus Integration SDK
-- **Languages**: C#
-- **Libraries & Tools**:
-  - Meta Movement SDK (Body & Facial Tracking)
-  - OpenXR & Oculus SDK
-  - Unity's Animator for facial animations
+The **Uncanny Valley VR Project** investigates how subtle imperfections in virtual avatar facial animation affect user perception in immersive virtual reality.
 
-## Installation & Setup
+Rather than focusing on visual fidelity alone, this project studies the **interaction between tracking accuracy, animation noise, and perceptual realism**, with a particular emphasis on:
+
+- Facial expression alignment
+- Lip synchronization accuracy
+- Eye micro-motions (blinking, saccades)
+- Controlled imperfections and temporal noise
+
+The system is designed as a **research-oriented VR experience**, guiding users through structured interactions to evaluate which factors mitigate or amplify the uncanny valley effect.
+
+---
+
+## 🎯 Research Objectives
+
+- Analyze how **facial tracking precision** influences perceived realism
+- Compare **tracking-driven lip sync** vs. audio-driven approaches
+- Study the role of **subtle eye motion** in reducing uncanny responses
+- Evaluate how **controlled noise and imperfections** affect user comfort
+- Establish a repeatable **VR-based evaluation framework** for avatar realism
+
+---
+
+## 🧠 Experimental Design
+
+The experience is structured as a **guided VR experiment**, where users:
+
+1. Observe a humanoid avatar under controlled conditions  
+2. Interact with the avatar using natural gestures and head motion  
+3. Experience variations in:
+   - Lip sync accuracy
+   - Eye movement behavior
+   - Facial tracking smoothing and latency
+4. Provide qualitative feedback on realism, comfort, and eeriness
+
+This design allows isolating individual variables while maintaining immersion.
+
+---
+
+## ✨ Key Features
+
+### Facial Tracking Accuracy
+- Real-time facial expression mapping from user to avatar
+- Emphasis on temporal coherence and latency reduction
+
+### Tracking-Based Lip Sync
+- Lip motion driven directly by facial tracking data  
+- Avoids audio-only phoneme estimation to preserve expression consistency
+
+### Eye Subtle Motion System
+- Procedural blinking with randomized intervals
+- Micro eye movements and gaze stabilization
+- Prevents unnatural “static stare” artifacts
+
+### Controlled Noise & Imperfections
+- Adjustable smoothing and jitter parameters
+- Used to study tolerance thresholds in user perception
+
+### Natural Hand Interaction
+- Gesture-based interaction using hand tracking
+- Supports more embodied and intuitive user engagement
+
+---
+
+## 🛠 Technology Stack
+
+**Hardware**
+- Meta Quest Pro (facial, eye, and hand tracking)
+
+**Engine**
+- Unity
+
+**Languages**
+- C#
+
+**SDKs & Tools**
+- Meta Movement SDK (Body & Facial Tracking)
+- OpenXR
+- Oculus Integration SDK
+- Unity Animator & BlendShape system
+
+---
+
+## ⚙️ Installation & Setup
+
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/THANKSHANK/UncannyValleyVRProject.git
-   cd uncanny-valley-vr
-   ```
-2. Open the project in Unity.
-3. Install the required Oculus and OpenXR packages.
-4. Connect Meta Quest Pro and enable facial tracking.
-5. Run the project in VR mode.
+   ```bash
+   git clone https://github.com/THANKSHANK/UncannyValleyVR.git
+   cd UncannyValleyVR
+2. Open the project in Unity (recommended LTS version).
+3. Install required packages:
+  -  Oculus Integration
+  -  OpenXR
+  -  Meta Movement SDK
+4. Connect Meta Quest Pro and enable:
+  -  Facial Tracking
+  -  Eye Tracking
+  -  Hand Tracking
+5. Build and run the project in VR mode.
 
 ## Usage
-- Start the VR experience and follow the guided interactions.
-- Observe how facial tracking and eye movements affect perception.
-- Provide feedback through built-in survey tools.
 
-## Future Improvements
-- Enhanced AI-driven animation blending.
-- More detailed facial expressions based on user feedback.
-- Expanded dataset for analyzing the uncanny valley effect.
-- Integration with additional VR headsets.
+Launch the VR experience and follow on-screen instructions
 
-## Contributors
-- **Zihan Wang** - Project Lead & Developer
+Observe avatar facial behavior under different configurations
 
-  
-## Acknowledgments
-- Special thanks to research advisors and contributors.
-- Inspired by FACS, AI-driven animation, and VR interaction studies.
+Interact naturally using gaze, head movement, and gestures
 
+Provide feedback through guided prompts or post-experience surveys
+
+## Findings & Insights
+
+High facial tracking accuracy alone does not guarantee realism
+
+Subtle eye motion significantly reduces perceived eeriness
+
+Temporal stability is often more important than raw accuracy
+
+Small, well-controlled imperfections can sometimes improve perceived naturalness
+
+These observations support existing uncanny valley research while demonstrating the importance of dynamic facial cues in VR.
+
+## Limitations
+
+Limited avatar diversity
+
+Small-scale user testing
+
+Focused on facial cues rather than full-body realism
+
+Hardware-dependent (Quest Pro tracking features)
+
+
+## Future Work
+
+AI-driven facial animation blending
+
+Expanded user study and quantitative metrics
+
+Support for additional XR headsets
+
+Integration with FACS-based expression analysis
+
+Machine learning–assisted noise modeling
+
+
+## Author
+
+Zihan Wang (王滋涵)
+VR / XR Developer · Computer Graphics · HCI
+
+GitHub: https://github.com/THANKSHANK
+
+Portfolio: [https://zihanwg.github.io//zihanw.github.io](https://zihanwg.github.io/ZihanW.github.io)
+Related Write-up
+
+Project blog & technical notes:
+https://zihanwportfolio.wordpress.com/2025/05/06/uncanny-valley-vr/
