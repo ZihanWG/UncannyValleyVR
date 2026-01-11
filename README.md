@@ -1,7 +1,9 @@
 # Uncanny Valley VR: Facial Realism and Perception Study
 https://zihanwportfolio.wordpress.com/2024/11/30/uncanny-valley-exploration-in-vr/
 > A VR-based experimental system for studying how facial tracking accuracy, lip synchronization, and eye micro-motions influence the uncanny valley effect.
-
+![Eye_Motion](Assets/eye motion.gif)
+![Facial_Tracking](Assets/facial tracking.gif)
+![Texture](Assets/texture.gif) 
 ---
 
 ##  Overview
